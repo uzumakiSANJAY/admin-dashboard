@@ -1,0 +1,19 @@
+{
+  "name": "vendor-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file .env app.js",
+    "migration": "node --env-file .env migration.js",
+    "dev": "nodemon --exec npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "moment-timezone": "^0.5.45",
+    "mongoose": "^8.5.1"
+  }
+}
